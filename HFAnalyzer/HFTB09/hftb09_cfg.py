@@ -14,7 +14,7 @@ process.tbUnpacker = cms.EDFilter("HcalTBObjectUnpacker",
    HcalSlowDataFED = cms.untracked.int32(3),
    HcalTriggerFED = cms.untracked.int32(1),
 #    ConfigurationFile = cms.untracked.string('configQADCTDC.txt')
-   ConfigurationFile = cms.untracked.string('../../configQADCTDC_WCCalibration_Francesco.txt')
+   ConfigurationFile = cms.untracked.string('configQADCTDC_WCCalibration_Francesco.txt')
 )
 
 process.source = cms.Source("HcalTBSource",
